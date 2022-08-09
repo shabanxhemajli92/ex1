@@ -11,11 +11,14 @@ print("Shaban Xhemajli") # d
 print(bool(0)) #e
 
 # Task 2
-print(665,"is type of",type(665)) #a
+var=" is type of "
+print(665,var,type(665)) #a
+print(665, 12, 15, type(665), sep=" is type of ") 
+print(665, 12, 15, type(665), sep=var)
 print(45.2,"is type of",type(45.2)) #b
 print(4-1j,"is type of",type(4-1j)) #c
-print("how are you","is type of",type("how are you"))
-print(True,"is type of",type(True))
+print("how are you","is type of",type("how are you"))#d
+print(True,"is type of",type(True))#e
 
 # Task3
-print(isinstance,123,int)
+
