@@ -12,13 +12,11 @@ print(bool(0)) #e
 
 # Task 2
 var=" is type of "
-print(665,var,type(665)) #a
-print(665, 12, 15, type(665), sep=" is type of ") 
-print(665, 12, 15, type(665), sep=var)
-print(45.2,"is type of",type(45.2)) #b
-print(4-1j,"is type of",type(4-1j)) #c
-print("how are you","is type of",type("how are you"))#d
-print(True,"is type of",type(True))#e
+print(665,type(665), sep=var)#a
+print(45.2,type(45.2),sep=var) #b
+print(4-1j,type(4-1j),sep=var) #c
+print("how are you",type("how are you"),sep=var)#d
+print(True,type(True),sep=var)#e
 
 # Task3
 
