@@ -37,5 +37,11 @@ print("Is truth an instance bool" ,isinstance(truth,bool))#d
 Text="How are you"
 print("Is Text an instance of string" ,isinstance(Text,float))#e
 # Task5
+print("Shaban") #this is a string aka a user
+print(455) #This is a number aka a bill sum
+print(33.33)#This is a decimal aka a float
+print(type(4-1j))#This iss a  complex number this statment helps you get the type of data
+total_sum=45.3
+print("Is total_sum an instance of int", isinstance(total_sum,int))#This shows what instance the data type is
 
 
