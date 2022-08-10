@@ -19,4 +19,9 @@ print("how are you",type("how are you"),sep=var)#d
 print(True,type(True),sep=var)#e
 
 # Task3
-
+city="Berlin"
+print(isinstance(city,int)) #a
+print(isinstance(city,bool))#b
+print(isinstance(city,str)) #c
+print(isinstance(city,float))#d
+print(isinstance(city,complex))#e 
