@@ -27,15 +27,15 @@ print(isinstance(city,float))#d
 print(isinstance(city,complex))#e 
 # Task4
 number=123
-print(isinstance(number,int))#a
+print("Is number an instance of int" ,isinstance(number,int))#a
 decimal=45.33
-print(isinstance(decimal,bool))#b
+print("Is decimal an instance of bool" ,isinstance(decimal,bool))#b
 cordinates=(2-1j)
-print(isinstance(cordinates,complex))#c
+print("Is cordinates an instance of complex" ,isinstance(cordinates,complex))#c
 truth=True
-print(isinstance(truth,bool))#d
+print("Is truth an instance bool" ,isinstance(truth,bool))#d
 Text="How are you"
-print(isinstance(Text,float))#e
+print("Is Text an instance of string" ,isinstance(Text,float))#e
 # Task5
 
 
