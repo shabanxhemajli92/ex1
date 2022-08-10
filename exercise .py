@@ -25,3 +25,17 @@ print(isinstance(city,bool))#b
 print(isinstance(city,str)) #c
 print(isinstance(city,float))#d
 print(isinstance(city,complex))#e 
+# Task4
+number=123
+print(isinstance(number,int))#a
+decimal=45.33
+print(isinstance(decimal,bool))#b
+cordinates=(2-1j)
+print(isinstance(cordinates,complex))#c
+truth=True
+print(isinstance(truth,bool))#d
+Text="How are you"
+print(isinstance(Text,float))#e
+# Task5
+
+
